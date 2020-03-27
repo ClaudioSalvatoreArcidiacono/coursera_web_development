@@ -1,0 +1,66 @@
+    * {
+        font-family: "Comic Sans MS";
+        box-sizing: border-box;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: 170%;
+    }
+    
+    .menuItem {
+        background-color: #999999;
+        float: left;
+        border: solid black;
+        border-width: 2px;
+        margin: 1.5%;
+    }
+    
+    .dishName {
+        float: right;
+        clear: right;
+        border: solid black;
+        border-width: 0px 0px 2px 2px;
+        padding: .5% 5% .5% 5%;
+        width: 30%;
+        text-align: center;
+        font-size: 125%;
+    }
+    
+    .menu {
+        float: left;
+        margin-left: 1.5%;
+    }
+    
+    .dishDescription {
+        float: left;
+        padding: 2%;
+    }
+    
+    #chicken {
+        background-color: #CC9A99;
+    }
+    
+    #beef {
+        background-color: #B34D48;
+        color: white;
+    }
+    
+    #sushi {
+        background-color: #E2D19F;
+    }
+    
+    @media (min-width:768px) and (max-width: 991px) {
+        .menuItem {
+            width: 45%;
+        }
+        .sushiMenuItem {
+            width: 93%;
+        }
+    }
+    
+    @media (min-width:992px) {
+        .menuItem {
+            width: 30%;
+        }
+    }
