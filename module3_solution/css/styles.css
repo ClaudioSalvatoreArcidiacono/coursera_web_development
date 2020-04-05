@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: gray;
+}
+
+header div.navbar {
+    float: right;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.menu_item_container {
+    background-color: gray;
+}
+
+#main-content h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#header-nav button{
+    border-color: solid blanchedalmond;
+}
+#header-nav button[aria-expanded="true"]{
+    color: blanchedalmond;
+}
+.menu_item_title {
+    font-size: 2em;
+    text-align: center;
+    margin: 50;
+}
+
+.menu_item_description{
+    margin: 80px;
+}
+#collapsable-nav {
+    font-size: 1.4em;
+    border: 3px black;
+}
+
+#nav-list {
+    border: 1px solid black;
+}
+
+#nav-list li {
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+@media (min-width: 766px) {
+    .visible-xs {
+        visibility: hidden;
+        position: absolute;
+    }
+}
